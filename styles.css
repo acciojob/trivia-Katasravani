@@ -1,14 +1,22 @@
-
-/* Your CSS Code here. */
-.question>p{
-/* 	font-size:20px; */
-	font-weight:bold;
+/* Styling for the question */
+.question {
+  margin: 20px; /* Adjust margin as needed */
 }
-.quotation{
-	width:600px;
-	margin:10px;
-	padding:15px;
-	border-left:8px solid green;
-	background-color:#f8fffe;
-	font-weight:bold;
+
+.question h2 {
+  font-size: 24px;
+}
+
+.question form {
+  margin-top: 10px;
+}
+
+/* Styling for the quotation */
+.quotation {
+  max-width: 600px;
+  margin: 10px;
+  padding: 15px;
+  border-left: 8px solid green;
+  background-color: #f8fffe;
+  font-weight: bold;
 }
